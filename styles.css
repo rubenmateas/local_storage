@@ -1,3 +1,12 @@
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  width: 75px;
+  height: 75px;
+}
+
 .site-container {
   margin: auto;
   background-color: #ffa8ec;
