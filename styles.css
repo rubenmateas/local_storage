@@ -8,10 +8,23 @@ img {
 }
 
 .site-container {
+  float: left;
   margin: auto;
   background-color: #ffa8ec;
-  max-width: 900px;
+  height: 1200px;
+  padding: 20px;
 }
 .form-container {
   padding: 10px 20px;
+}
+
+#useroutput {
+	float:left;
+	padding: 20px;
+	height: 1200px;
+	background-color:#CCCCCC;
+}
+
+#reply {
+  width: 500px;
 }

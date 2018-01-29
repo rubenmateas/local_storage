@@ -16,64 +16,70 @@
         <form class="doughnut-shape">
           <img src="./images/filled.jpg" alt="filled">
           <label class="shape">Filled</label>
-          <input type="radio" name="doughnut-shape">
+          <input type="radio" name="doughnut-shape" value="Filled">
           <br />
           <img src="./images/fritter.jpg" alt="fritter">
           <label class="shape">Fritter</label>
-          <input type="radio" name="doughnut-shape">
+          <input type="radio" name="doughnut-shape" value="Fritter">
           <br />
           <img src="./images/bar.jpg" alt="bar">
           <label class="shape">Bar</label>
-          <input type="radio" name="doughnut-shape">
+          <input type="radio" name="doughnut-shape" value="Bar">
           <br />
           <img src="./images/old-fashion.jpg" alt="old fashion">
           <label class="shape">Old Fashioned</label>
-          <input type="radio" name="doughnut-shape" class="shape">
+          <input type="radio" name="doughnut-shape" value="Old Fashioned">
         </form>
       </div>
       <div class="form-container">
         <h2>Pick the type of glaze you want on your doughnut</h2>
         <form class="doughnut-glaze">
           <label class="glaze">Plain</label>
-          <input type="radio" name="doughnut-glaze">
+          <input type="radio" name="doughnut-glaze" value="Plain">
           <br />
           <label class="glaze">Glaze</label>
-          <input type="radio" name="doughnut-glaze">
+          <input type="radio" name="doughnut-glaze" value="Glaze">
           <br />
           <label class="glaze">Raspberry Glaze</label>
-          <input type="radio" name="doughnut-glaze">
+          <input type="radio" name="doughnut-glaze" value="Raspberry Glaze">
           <br />
           <label class="glaze">Chocolate Icing</label>
-          <input type="radio" name="doughnut-glaze">
+          <input type="radio" name="doughnut-glaze" value="Chocolate Icing">
           <br />
           <label class="glaze">Maple Icing</label>
-          <input type="radio" name="doughnut-glaze">
+          <input type="radio" name="doughnut-glaze" value="Maple Icing">
           <br />
           <label class="glaze">Powdered Sugar</label>
-          <input type="radio" name="doughnut-glaze">
+          <input type="radio" name="doughnut-glaze" value="Powdered Sugar">
         </form>
       </div>
       <div class="form-container">
         <h2>Pick a topping for your doughnut</h2>
         <form class="doughnut-topping">
           <label class="topping">Sprinkles</label>
-          <input type="radio" name="doughnut-topping">
+          <input type="radio" name="doughnut-topping" value="Sprinkles">
           <label class="topping">Bacon</label>
-          <input type="radio" name="doughnut-topping">
+          <input type="radio" name="doughnut-topping" value="Bacon">
           <label class="topping">Coconut Shavings</label>
-          <input type="radio" name="doughnut-topping">
+          <input type="radio" name="doughnut-topping" value="Coconut Shavings">
         </form>
       </div>
       <div class="form-container">
         <form class="cust-reply">
-          <label for="reply">
+          <label>
             Please leave us with a suggestion for either a new shape, glaze, or
             topping that you would like to see added to the menu
           </label>
           <br />
-          <input type="text" name="cust-reply" class="reply">
+          <textarea id="reply" rows="20"></textarea>
         </form>
       </div>
+      <input type="button" id="button" value="Submit">
     </div>
+    <section id="useroutput">
+      OUTPUT
+      <hr />
+      <br /><br />
+    </section>
   </body>
 </html>
