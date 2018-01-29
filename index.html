@@ -6,15 +6,59 @@
     <title>Doughnut Shop</title>
   </head>
   <body>
-    <div>
-
+    <div class="site-container">
       <h1>
-          Create Your Own Doughnut!!!
+        Create Your Own Doughnut!!!
       </h1>
-
-      <div class="textBox">
-        <form>
-            
+      <div class="form-container">
+        <h2>Pick the shape of your doughnut</h2>
+        <form class="doughnut-shape">
+          <label for="shape">Filled</label>
+          <input type="radio" name="doughnut-shape" class="shape">
+          <label for="shape">Fritter</label>
+          <input type="radio" name="doughnut-shape" class="shape">
+          <label for="shape">Bar</label>
+          <input type="radio" name="doughnut-shape" class="shape">
+          <label for="shape">Old Fashioned</label>
+          <input type="radio" name="doughnut-shape" class="shape">
+        </form>
+      </div>
+      <div class="form-container">
+        <h2>Pick the type of glaze you want on your doughnut</h2>
+        <form class="doughnut-glaze">
+          <label for="glaze">Plain</label>
+          <input type="radio" name="doughnut-glaze" class="glaze">
+          <label for="glaze">Glaze</label>
+          <input type="radio" name="doughnut-glaze" class="glaze">
+          <label for="glaze">Raspberry Glaze</label>
+          <input type="radio" name="doughnut-glaze" class="glaze">
+          <label for="glaze">Chocolate Icing</label>
+          <input type="radio" name="doughnut-glaze" class="glaze">
+          <label for="glaze">Maple Icing</label>
+          <input type="radio" name="doughnut-glaze" class="glaze">
+          <label for="glaze">Powdered Sugar</label>
+          <input type="radio" name="doughnut-glaze" class="glaze">
+        </form>
+      </div>
+      <div class="form-container">
+        <h2>Pick a topping for your doughnut</h2>
+        <form class="doughnut-topping">
+          <label for="topping">Sprinkles</label>
+          <input type="radio" name="doughnut-topping" class="topping">
+          <label for="topping">Bacon</label>
+          <input type="radio" name="doughnut-topping" class="topping">
+          <label for="topping">Coconut Shavings</label>
+          <input type="radio" name="doughnut-topping" class="topping">
+        </form>
+      </div>
+      <div class="form-container">
+        <form class="cust-reply">
+          <label for="reply">
+            Please leave us with a suggestion for either a new shape, glaze, or
+            topping that you would like to see added to the menu
+          </label>
+          <br />
+          <input type="text" name="cust-reply" class="reply">
         </form>
       </div>
     </div>

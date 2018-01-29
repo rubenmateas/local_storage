@@ -1,0 +1,8 @@
+.site-container {
+  margin: auto;
+  background-color: #ffa8ec;
+  max-width: 900px;
+}
+.form-container {
+  padding: 10px 20px;
+}
