@@ -1,0 +1,19 @@
+{
+  "name": "local_storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubenmateas/local_storage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rubenmateas/local_storage/issues"
+  },
+  "homepage": "https://github.com/rubenmateas/local_storage#readme"
+}
